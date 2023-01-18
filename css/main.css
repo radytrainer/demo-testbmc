@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background: #19de29;
+    flex: 0.5;
+}
+.container {
+    flex: 4;
+    display: flex;
+}
+aside {
+    background: #17cb26;
+    flex: 1;
+    
+}
+.content {
+    flex: 3;
+    background: #14b521;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    background: #e07070;
+    flex-basis: 32%;
+}
+.banner {
+   display: flex;
+}
+.banner-left {
+    background: #129f1d;
+    flex: 1;
+}
+.banner-right {
+    background: #108b1b;
+    flex: 1;
+}
+.partner {
+    background: #0b5911;
+}
+.partner-box {
+    background: #a76666;
+}
+footer {
+    flex: 1;
+}
+.footer-left {
+    background: #09440e;
+}
+.footer-right {
+    background: #041f06;
+}
